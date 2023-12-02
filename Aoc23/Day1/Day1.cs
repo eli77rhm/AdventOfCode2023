@@ -13,7 +13,7 @@ namespace Aoc23
         {
         }
 
-        public void ExecutePart1()
+        public override void ExecutePart1()
         {
             int sum = 0;
 
@@ -38,7 +38,7 @@ namespace Aoc23
             Console.WriteLine("Total Calibration Value: " + sum);
         }
 
-        public void ExecutePart2()
+        public override void ExecutePart2()
         {
             int sum = 0;
 

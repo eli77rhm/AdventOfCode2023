@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Aoc23
 {
-    public class AllDays
+    public abstract class AllDays
     {
         public string[] Lines;
         public AllDays(string path)
@@ -16,5 +16,8 @@ namespace Aoc23
                 Lines = sr.ReadToEnd().Split("\n");
             }
         }
+
+        public abstract void ExecutePart1();
+        public abstract void ExecutePart2();
     }
 }
