@@ -100,13 +100,9 @@ namespace Aoc23
 
         private long GCD(long a, long b)
         {
-            while (b != 0)
-            {
-                var temp = b;
-                b = a % b;
-                a = temp;
-            }
-            return a;
+            if (b == 0)
+                return a;
+            return GCD(b, a % b);
         }
 
     }
