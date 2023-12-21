@@ -55,4 +55,4 @@ broadcaster -> gz, xg, cd, sg
 %lt -> pm, mx
 %gm -> dj
 %nl -> pj
-%mn -> cc
+%mn -> ccw
