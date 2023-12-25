@@ -4,8 +4,8 @@
     {
         static void Main(string[] args)
         {
-            var day = new Day23();
-            day.ExecutePart2();
+            var day = new Day25();
+            day.ExecutePart1();
         }
     }
 }

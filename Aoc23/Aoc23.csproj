@@ -9,9 +9,13 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Z3" Version="4.12.2" />
+    <PackageReference Include="QuickGraph" Version="3.6.61119.7" />
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="Day25\input.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="Day24\input.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
